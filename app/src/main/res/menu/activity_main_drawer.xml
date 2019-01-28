@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/shop"
+            android:title="@string/restaurants" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/req"
+            android:title="@string/requests" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/report2"
+            android:title="@string/reports" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/terms"
+            android:title="@string/terms" />
+    </group>
+
+    <item android:title="@string/communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/call"
+                android:title="@string/customers_service" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/bug"
+                android:title="@string/complaints" />
+        </menu>
+    </item>
+
+    <item android:title="Controls">
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/logout"
+                android:title="@string/logout" />
+        </menu>
+    </item>
+
+</menu>
